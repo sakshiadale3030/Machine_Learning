@@ -12,7 +12,6 @@ import joblib
 import argparse
 from datetime import datetime
 
-
 # CONFIGURATION DETAILS
 ARTIFACTS = Path("artifacts")
 PLOTS_DIR = ARTIFACTS / "plots"
@@ -20,7 +19,6 @@ MODELS_DIR = ARTIFACTS / "models"
 ARTIFACTS.mkdir(exist_ok=True)
 PLOTS_DIR.mkdir(exist_ok=True)
 MODELS_DIR.mkdir(exist_ok=True)
-
 
 ###############################################################################################################
 # Function Name :- load_dataset()
@@ -236,6 +234,9 @@ def main():
     print(f"Artifacts stored in: {ARTIFACTS.resolve()}")
     print(line)
 
+###############################################################################################################
+## Starter
+###############################################################################################################
 
 if __name__ == "__main__":
     main()
