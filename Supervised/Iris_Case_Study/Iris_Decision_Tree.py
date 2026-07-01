@@ -313,7 +313,7 @@ def main():
     print("Pipeline Completed Successfully")      
 
 # ==========================================================
-# Program entry point
+# Starter
 # ==========================================================
 
 if __name__ == "__main__":
